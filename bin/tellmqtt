@@ -1,0 +1,11 @@
+#!/usr/bin/env node
+
+var tellmqtt = require('..');
+var debug=require('debug')('tellmqtt');
+
+var app = tellmqtt.createApp();
+
+debug('starting tellmqtt');
+app.listen( function () {
+    debug('listening on mqtt')
+});
