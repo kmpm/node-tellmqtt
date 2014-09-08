@@ -10,8 +10,8 @@
   "author": "Peter Magnusson <peter@birchroad.net>",
   "license": "MIT",
   "dependencies": {
+    "debug": "~1.0.4",
     "mqtt": "~0.3.11",
-    "telldus": "0.0.7",
-    "debug": "~1.0.4"
+    "telldus": "0.0.8"
   }
 }
